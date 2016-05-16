@@ -1,18 +1,84 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+  <head>
+    <meta charset="utf-8" />
+    <title>板井 仁</title>
+    <link rel="stylesheet" href="about.css" />
   </head>
   <body>
-    <h1>Hello, world!</h1>
+     <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div id="brand">
+            <a class="navbar-brand" href="#">
+              <img alt="Brand" src="Home.png">
+            </a>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Home</a></li>
+              <li class="active"><a href="#">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  Work
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Picture</a></li>
+                  <li><a href="#">Movie</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="logo">
+        <img src="profile.jpg" alt="" />
+        <h1><p>Jin Itai</P></h1>
+        <h2><p>Director, Photographor,</p>
+         <p>and Grduate student.</p></h2>
+        </div>
+    </header>
+    <div class="container">
+      <section>
+        <li>Link</li>
+           <li><a href="https://www.facebook.com/jin.itai" target="_blank">Facebook</a></li>
+           <li><a href="" target="_blank">Twitter</a></li>
+           <li><a href="" target="_blank">GitHub</a></li>
+        <br>
+        <br>
+        <h3>About</h3>
+        <p>Hello! I'm Jin Itai.</p>
+        <p>I'm a student at the Hitotsubashi University Graduate School of Language and Society.</p>
+        <p></p>
+        <p></p>
+        
+        
+        <h3>Work</h3>
+        <p>Modern Irish Project『Swing Set』(2012)
+        <p>『世界一即戦力な男』（2013）</p>
+				  <iframe width="400" height="225" src="https://www.youtube.com/watch?time_continue=1&v=ehzVUEHOcSk" frameborder="0" allowfullscreen></iframe>
+        <p>『写真展 渋谷』(2015) etc.</p>
+        <p><a href="contact.html">Contact</a></p>
+      </section>
+      <footer>
+        <p>&copy; 2016 Jin Itai.</p>
+      </footer>
+    </div>
   </body>
 </html>
